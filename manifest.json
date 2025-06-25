@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Nether",
+  "version": "0.1.7",
+  "description": "Control light and dark mode on any website",
+  "author": "Kumar Anirudha",
+  "homepage_url": "https://github.com/yourusername/nether-extension",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "Nether - Light/Dark Mode Controller"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  }
+}
