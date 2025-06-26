@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Nether",
-  "version": "0.1.7",
-  "description": "Control light and dark mode on any website",
+  "version": "0.2.0",
+  "description": "Control light and dark mode on any website with per-site preferences",
   "author": "Kumar Anirudha",
   "homepage_url": "https://github.com/yourusername/nether-extension",
   "permissions": [
